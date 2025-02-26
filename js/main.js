@@ -62,7 +62,6 @@ fetch('data/airports.geojson')
 
         legend.onAdd = function(map) {
             var div = L.DomUtil.create("div", "legend");
-            div.innerHTML += "<h4>Legend</h4>";
             div.innerHTML += '<i style="background: blue; width: 10px; height: 10px; display: inline-block; margin-right: 5px; border-radius: 50%;"></i> Airport Locations<br>';
             div.innerHTML += '<i style="background: orange; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i> Voronoi Polygons (Hidden)<br>';
             return div;
