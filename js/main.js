@@ -1,4 +1,4 @@
-var map = L.map('map').setView([20, 0], 3); // Centered on the world with a zoom level of 2
+var map = L.map('map').setView([20, 0], 2); // Centered on the world with a zoom level of 2
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
